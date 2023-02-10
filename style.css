@@ -8,7 +8,7 @@
 :root {
   --body-color: #e7e7e7;
   --sidebar-color: #fff;
-  --primary-color: #ff4500;
+  --primary-color: gray;
   --primary-color-light: #f6f5ff;
   --toggle-color: #ddd;
   --text-color: #707070;
@@ -23,6 +23,7 @@ body {
   background-color: var(--body-color);
   transition: var(--tran-05);
   overflow-x: hidden;
+
 }
 
 
@@ -116,6 +117,10 @@ header .image-text .name {
   margin-top: 2px;
   font-size: 18px;
   font-weight: 600;
+}
+
+.name{
+  color:#18191a;
 }
 
 header .image-text .profession {
@@ -443,10 +448,19 @@ nav.sidebar.close {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: yellow;
+  background: gray;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: green;
+  background: lightgray;
+}
+
+/* FONT ADJUSTMENT */
+.fas {
+  font-size: 1.5rem;
+}
+
+.fas {
+  color:black;
 }
