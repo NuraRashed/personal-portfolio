@@ -466,7 +466,7 @@ nav.sidebar.close {
 }
 
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -479,4 +479,4 @@ nav.sidebar.close {
     display: block;
     margin-top: 20px;
   }
-}
+} */
