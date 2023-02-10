@@ -464,3 +464,19 @@ nav.sidebar.close {
 .fas {
   color:black;
 }
+
+
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 10px;
+  }
+
+  .boxes {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+}
